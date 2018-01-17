@@ -1,17 +1,26 @@
 {
-    "name": "justique/yii2-media",
-    "description": "Менеджер медиа файлов Yii2",
+    "name": "justique/media",
+    "description": "Media Extension for Yii2",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","media","gallery","video"],
+    "keywords": [
+        "yii2",
+        "test"
+    ],
     "license": "MIT",
     "authors": [
         {
             "name": "Justique",
-            "email": "daewooby@gmail.com"
+            "email": "daewooby@gmail.com",            
+            "homepage": "https://github.com/justique/media",
+            "role": "Developer"
         }
     ],
-    "require": {
+     "minimum-stability": "stable",
+     "require": {
         "yiisoft/yii2": "~2.0.0"
+    },
+    "extra": {
+        "bootstrap": "justique\\media\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
