@@ -1,0 +1,21 @@
+{
+    "name": "justique/yii2-media",
+    "description": "Менеджер медиа файлов Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","media","gallery","video"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justique",
+            "email": "daewooby@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "justique\\media\\": ""
+        }
+    }
+}
